@@ -4,6 +4,3 @@ snowflake-snowpark-python
 streamlit==1.31.1
 requests
 pandas
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-st.text(fruityvice_response)
