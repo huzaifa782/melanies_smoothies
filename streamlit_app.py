@@ -28,7 +28,7 @@ ingredients_list = st.multiselect('Choose up to 5 ingredients:',
 if ingredients_list:
     ingredients_string = ''
 
-    for chosen_fruits in ingredients_list:
+    for fruit_chosen in ingredients_list:
         ingredients_string += fruit_chosen + ' '
         st.subheader(fruit_chosen + ' Nutrition Information')
         fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_chosen)
