@@ -31,7 +31,7 @@ ingredients_list = st.multiselect('Choose up to 5 ingredients:',
                                  my_dataframe,
                                  max_selections = 5)
 
-if 
+
 if Ingredients_list:
     ingredients_string = ''
 
